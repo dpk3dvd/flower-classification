@@ -8,7 +8,9 @@ We are using the famous **Iris dataset** from Kaggle:
 You can also download it using the Kaggle CLI:
 
 
-
+```bash
+kaggle datasets download -d uciml/iris
+```
 ## 📁 Folder Structure
 
 flower_classification/
@@ -36,12 +38,11 @@ model.compile(optimizer='adam',
               loss='categorical_crossentropy',
               metrics=['accuracy'])
 
-
+```
 Install Requirements
 
 pip install tensorflow matplotlib
-```bash
-kaggle datasets download -d uciml/iris
+
 
 
 
