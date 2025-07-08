@@ -1,0 +1,7 @@
+# .gitignore
+__pycache__/
+*.h5
+*.pkl
+*.csv
+flowers/
+.env
